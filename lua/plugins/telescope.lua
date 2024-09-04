@@ -7,6 +7,9 @@ return {
           prompt_position = "top", -- Keep the prompt at the top
         },
         sorting_strategy = "ascending", -- Show results in ascending order
+        path_display = {
+          "filename_first",
+        },
       },
     },
   },
