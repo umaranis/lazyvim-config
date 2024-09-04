@@ -5,4 +5,4 @@ debug
 .repro
 foo.*
 *.log
-data
+.DS_Store
