@@ -10,6 +10,14 @@ return {
         path_display = {
           "filename_first",
         },
+        mappings = {
+          n = {
+            ["<M-p>"] = require("telescope.actions.layout").toggle_preview,
+          },
+          i = {
+            ["<M-p>"] = require("telescope.actions.layout").toggle_preview,
+          },
+        },
       },
     },
   },
