@@ -1,4 +1,15 @@
 return {
+  {
+    "nvim-telescope/telescope.nvim",
+    opts = {
+      defaults = {
+        layout_config = {
+          prompt_position = "top", -- Keep the prompt at the top
+        },
+        sorting_strategy = "ascending", -- Show results in ascending order
+      },
+    },
+  },
   -- provides better performance as a native implementation instead of lua
   -- support fzf search syntax
   {
