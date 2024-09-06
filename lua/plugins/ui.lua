@@ -11,4 +11,7 @@ return {
       require("nvim-highlight-colors").setup({})
     end,
   },
+  {
+    "xiyaowong/transparent.nvim",
+  },
 }
