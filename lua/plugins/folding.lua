@@ -17,6 +17,7 @@ end
 return {
   {
     "kevinhwang91/nvim-ufo",
+    -- vscode = true, -- does not work with lsp (maybe tresitter is supported with vscode)
     dependencies = {
       { "kevinhwang91/promise-async" },
     },
